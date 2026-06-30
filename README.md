@@ -1,14 +1,15 @@
 # SLA Breach & Root Cause Analyzer
 
-A SQL → Python → Power BI project that investigates why SLA compliance is below
-target in a customer support ticketing system, and isolates a single, specific,
-fixable root cause behind a third of all breaches company-wide.
+A SQL → Python → Power BI project built while transitioning from 7+ years in
+Quality and Customer Operations into data analytics. It investigates why SLA
+compliance is below target in a customer support ticketing system, and
+isolates a single, specific, fixable root cause behind a third of all
+breaches company-wide.
 
-Built from a background of 7+ years in Quality and Customer Operations — the
-investigation pattern here (find the metric that's off, segment until the real
-driver isolates, quantify its share of the total problem) mirrors how I worked
-through real escalation and audit cases in that role, just applied with SQL,
-Python, and Power BI instead of Excel.
+The investigation approach here — find the metric that's off, segment until
+the real driver isolates, quantify its share of the total problem — mirrors
+how I worked through real escalation and audit cases in my Quality Analyst
+roles, just applied here with SQL, Python, and Power BI instead of Excel.
 
 ## The question
 
