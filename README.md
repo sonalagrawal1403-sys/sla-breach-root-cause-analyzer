@@ -102,9 +102,9 @@ building this:
 
 ## How to reproduce
 
-1. Run `generate_dataset.py` to produce `tickets.csv` and `agents.csv`
+1. Run `generate_dataset.py` to produce `ticket.csv` and `agent.csv`
 2. Load both into MySQL, then run `01_data_cleaning.sql` top to bottom
-3. Export the cleaned `tickets` and `agents` tables
+3. Export the cleaned `ticket` and `agent` tables
 4. Run `02_python_analysis.py` (developed in Google Colab) on the exported files
-5. Import the resulting `tickets_for_powerbi.csv` into Power BI Desktop and
+5. Import the resulting `tickets_for_powerbi-2.csv` into Power BI Desktop and
    rebuild the measures documented above
